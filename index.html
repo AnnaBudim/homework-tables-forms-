@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/header.jpg" alt="Homework заголовок для веб-сайту" width="1350" height="300">
+    </header>
+    <nav lang="en">
+        <table style="font-family:Arial; margin:10px 10px 10px 460px; font-size:35px; color:#c299cc">
+            <tr>
+                <td style="border-right:2px solid #6c357a;"><a href="index.html" style="text-decoration:none;">FORM</a></td>
+                <td><a href="table.html" style="text-decoration:none;" target="_blank">TABLE AND LIST</a></td>
+            </tr>
+        </table>
+    <hr>
+    </nav>
+    <section>
+        <h1 lang="en" style="font-family:Arial; color:#c299cc;margin:10px 10px 10px 600px;"><i>Page 1</i></h1>
+        <article>
+            <h2 lang="en" style="font-family:Arial; color:#c299cc;margin:10px 10px 10px 550px;"><b>FORM EXAMPLE</b></h2>
+            <form action="https://formspree.io/20Anna08@ukr.net" method="POST" enctype="multipart/form-data" style="font-size:18px;font-family:Arial; color:#571ba0; margin:10px 10px 10px 500px;">
+                <label>Ваше ім'я:</label><br>
+                    <input type="text" name="name" required><br>
+                <label>Завантажте Ваше фото:</label><br>
+                    <input type="file"><br>
+                <label>Який Ваш улюблений вид спорту? Відповідь вкажіть нижче:</label><br>
+                    <input type="text" name="kind of sport" required><br>
+                <label>Чи займаєтеся Ви яким-небудь видом спорту? Якщо так, вкажіть його нижче:</label><br>
+                    <input type="text" name="name of sport" required><br>
+                <label>Хтоcь з Вашої родини займається спортом? Якщо так, оберіть один із варіантів:</label><br>
+                    <input type="checkbox" name="mother">Мама<br>
+                    <input type="checkbox" name="father">Тато<br>
+                    <input type="checkbox" name="brother">Брат<br>
+                    <input type="checkbox" name="sister">Сестра<br>
+                    <input type="checkbox" name="nobody">Ніхто<br>
+                    <input type="checkbox" name="other">Інший варіант<br>
+                <label>Ваші друзі або колеги займаються спортом?</label><br>
+                    <input type="radio" name="yes" value="yes">Так<br>
+                    <input type="radio" name="no" value="no">Ні<br>
+                    <input type="radio" name="don't know" value="don't know">Не знаю<br>
+                <label>Ви стежите за спортивними досягненнями нашої країни? Якщо так, то оберіть один із варіантів:</label><br>
+                    <input type="checkbox" name="journals">Читаю журнали про спорт<br>
+                    <input type="checkbox" name="tv">Дивлюсь спортивні канали по телебаченню<br>
+                    <input type="checkbox" name="internet">Читаю факти про спорт в інтернеті<br>
+                    <input type="checkbox" name="nowatch">Не стежу<br>
+                <label>У вільний час Ви віддаєте перевагу: (Оберіть відповідь із запропонованих варіантів)</label><br>
+                    <select>
+                        <option value="watch tv">Дивитися телевізор</option>
+                        <option value="friends">Гуляти з друзями</option>
+                        <option value="book">Читати книги чи журнали</option>
+                        <option value="sport">Відвідувати спортивну секцію</option>
+                    </select><br>
+                <label>У сфері своєї діяльності (роботи, навчання і т.l.) Вам доводиться вести активний спосіб життя?</label><br>
+                    <input type="checkbox" name="yes">Так<br>
+                    <input type="checkbox" name="no">Ні<br>
+                        <label>Назвіть Вашу сферу діяльності:</label><br>
+                            <textarea>
+                                Введіть назву сфери діяльності
+                            </textarea><br>
+                <label>Чи підтримує Ваше керівництво заняття спортом?</label><br>
+                    <input type="radio" name="yes" value="yes">Так<br>
+                    <input type="radio" name="no" value="no">Ні<br>
+                    <input type="radio" name="other" value="other">Не працюю<br>
+                <label>Вкажіть Ваш вік:</label><br>
+                    <input type="text" name="age"><br>
+                <label>Вкажіть чи маєте Ви спортивний розряд:</label><br>
+                    <input type="password" name="sportcategory"><br>
+                <label>ОЧИСТИТИ</label>
+                    <input type="reset">
+                <label style="margin:10px 0px 60px 200px;">НАДІСЛАТИ</label>
+                    <input type="submit" value="Send"><br>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <hr>
+        <h3 style="color:#db64a7;"> © 2017 HOMEwork, Inc </h3>
+    </footer>
+</body>
+</html>
